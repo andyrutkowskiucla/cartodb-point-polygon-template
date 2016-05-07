@@ -20,7 +20,7 @@
       , map = new L.Map(mapCanvas).setView(new L.LatLng(38.651198, -98.506714), defaultZoom)
         // If you don't want Stamen Tiles, uncomment these next two lines and comment out the Stamen line
         // there's also a Stamen.js that you can comment out too
-        // , mapboxUrl = 'http://{s}.tiles.mapbox.com/v3/cartodb.map-1nh578vv/{z}/{x}/{y}.png'
+        // , mapboxUrl = 'http://{s}.andyrutkowski.cartodb.com/api/v2/viz/1a155422-0018-11e6-8946-0ea31932ec1d/viz.json/{z}/{x}/{y}.png'
         // , layer = new L.TileLayer(mapboxUrl, {maxZoom: 18, attribution: "Powered by Leaflet and Mapbox"});
       , layer = new L.StamenTileLayer("watercolor");
 
